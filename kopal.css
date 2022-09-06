@@ -1,0 +1,260 @@
+/*html elments*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+
+body{
+    text-align: center;
+    margin: auto;
+    font-family: Montserrat;
+}
+
+.image{
+    width: 25%;
+    border-radius: 100%;
+    position: absolute;
+    right: 280px;
+}
+
+
+table{
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    padding-top: 30px;
+    font-family: Montserrat;
+    font-weight: 700;
+
+}
+
+
+
+h1{
+    font-family: Montserrat;
+    font-weight: 700;
+
+}
+
+h2{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+h3{
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+th{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+th:hover{
+    color: #373737;
+}
+
+
+
+
+/*NAVBAR*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+.navbar{
+    padding-bottom: 4.5%;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.nav-item{
+    padding: 0 30px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    font-weight: lighter;
+    color: white;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+/*SECTION: INTRO!*/
+
+
+/*TITLE SECTION*/
+
+#intro {
+    background-color: #ff4c68;
+    color: white;
+    font-family: Montserrat;
+}
+
+.container-fluid{
+    padding: 3% 15% 5%;
+}
+
+.adjectives{
+    padding-top: 5px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+
+
+
+/*SECTION: ABOUT ME*/
+/*-------------------------------------------------------------------------------------------------------------*/
+
+#about_me{
+    position: relative;
+    background-color: white;
+    padding: 65px 400px 65px ;
+}
+
+.about_me{
+    padding-bottom: 20px;
+}
+
+
+
+/*SECTION: WORK EXPERIENCE*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+#work_experience{
+    background-color: #ef8176;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+.tp{
+    padding: 10px 400px ;
+    color: white;
+}
+
+.we_table{
+    padding-top: 60px;
+}
+
+.eawe{
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*SECTION: HOBBIES!*/
+
+#hobbies{
+    padding: 30px 200px;
+}
+
+.hobbies{
+    padding-top: 30px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*SECTION: CONTACT*/
+
+#contact{
+    padding: 50px 100px 20px;
+    color: white;
+    background-color: #ff4c68;
+}
+
+.social{
+    padding: 2% 2% 2% 2%;
+    color: black;
+}
+
+.social:hover{
+    color: lightskyblue;
+}
+
+.last{
+    color: white;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 1028px){
+    .image{
+        position: static;
+        margin: auto;
+    }
+
+    #about_me{
+        padding: 45px 220px;
+    }
+
+    .ab{
+        padding-bottom: 20px;
+    }
+
+    .tp{
+        padding: 10px 220px;
+    }
+
+    .tpp{
+      padding-bottom: 20px;
+    }
+    table{
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+        font-weight: normal;
+        font-size: .8rem;
+    }
+
+    .eawe{
+        font-weight: normal;
+    }
+
+    th{
+        font-size: .8rem;
+        font-weight: normal;
+        color: #373737;
+    }
+
+    th:hover{
+        color: white;
+    }
+
+    #hobbies{
+        padding: 10px 0;
+    }
+
+    .last{
+        padding-top: 20px;
+    }
+
+    .adjectives{
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    .we_table{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
